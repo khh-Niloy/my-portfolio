@@ -51,10 +51,12 @@ const Skill = () => {
   }, []);
 
   return (
-    <div className="text-center mt-32 pt-20 relative">
-      <h1 id="skills" className="text-4xl  font-semibold">Skills</h1>
+    <div className="text-center mt-36 xl:mt-0 xl:pt-0 pt-36 sm:pt-0 relative">
+      <h1 id="skills" className="text-4xl  font-semibold">
+        Skills
+      </h1>
 
-      <div className="grid grid-cols-3 w-[80%] m-auto mt-20">
+      <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 w-[80%] m-auto mt-20">
         <div className="flex flex-col justify-center items-center">
           <h1 className="mb-3">Frontend</h1>
           <div className="flex gap-6 mt-5">
@@ -81,7 +83,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center md:mt-0 mt-20">
           <h1 className="mb-3 ">Backend</h1>
           <div className="flex gap-6 mt-5">
             {back.map((e, index) => (
@@ -101,7 +103,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center lg:mt-0 mt-20 md-mt-0">
           <h1 className="mb-3 ">Database</h1>
           <div className="flex gap-6 mt-5">
             <div className="flex flex-col justify-end items-center">
@@ -111,7 +113,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center mt-16 items-center">
+        <div className="flex flex-col justify-center lg:mt-16 items-center mt-20">
           <h1 className="mb-3 ">Design Tools</h1>
           <div className="flex gap-6 mt-5">
             {design.map((e, index) => (
@@ -131,7 +133,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center mt-16 items-center">
+        <div className="flex flex-col justify-center lg:mt-16 items-center mt-20">
           <h1 className="mb-3">Others</h1>
           <div className="flex gap-6 mt-5">
             {others.map((e, index) => (
@@ -151,7 +153,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center mt-16 items-center">
+        <div className="flex flex-col justify-center lg:mt-16 mt-20 items-center">
           <h1 className="mb-3">More languages</h1>
           <div className="flex gap-1 mt-5 items-center justify-center">
             {more.map((e, index) => (
@@ -160,14 +162,22 @@ const Skill = () => {
                 className="flex flex-col justify-end items-center w-[20%]"
               >
                 {(e.name === "C" && (
-                  <img className="w-[78%]" src="C.svg" alt="" />
+                  <img
+                    className="md:w-[75%] sm:w-[50%] w-[78%]"
+                    src="C.svg"
+                    alt=""
+                  />
                 )) ||
                   (e.name === "C++" && (
-                    <img className="w-[67%]" src="C++.svg" alt="" />
+                    <img
+                      className="md:w-[65%] sm:w-[45%] w-[67%]"
+                      src="C++.svg"
+                      alt=""
+                    />
                   )) ||
                   (e.name === "Java" && (
                     <img
-                      className="w-[70%] -translate-y-1"
+                      className="sm:w-[55%] w-[70%] md:w-[65%] -translate-y-1"
                       src="java.svg"
                       alt=""
                     />

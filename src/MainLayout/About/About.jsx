@@ -3,7 +3,7 @@ import map from "../../assets/map.svg";
 
 const About = () => {
   return (
-    <div className="text-center lg:mt-32 sm:mt-24 pt-20 lg:pb-0 pb-[17rem] relative">
+    <div className="text-center lg:mt-32 sm:mt-24 pt-20 lg:pb-0 pb-[17rem] sm:pb-0 xl:pb-[17rem] relative">
       <h1 id="about" className="text-4xl font-semibold">
         About
       </h1>
@@ -24,7 +24,7 @@ const About = () => {
         </h1>
         <img
           src={map}
-          className="xl:w-[85%] xl:mt-40 lg:mt-[20rem] lg:ml-20 sm:scale-125 md:scale-[1.35] lg:rotate-0 lg:translate-x-0 md:-rotate-6 md:-translate-x-16 md:mt-[22rem] sm:mt-[23rem] sm:flex hidden"
+          className="xl:w-[85%] xl:mt-40 lg:mt-[20rem] lg:ml-20 sm:scale-125 md:scale-[1.35] lg:rotate-0 lg:translate-x-0 md:-rotate-6 md:-translate-x-16 sm:-translate-x-8 md:mt-[22rem] sm:mt-[23rem] sm:flex hidden"
           alt=""
         />
       </div>

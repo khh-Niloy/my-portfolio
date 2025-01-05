@@ -4,21 +4,21 @@ import { HiBriefcase } from "react-icons/hi2";
 
 const Education = () => {
   return (
-    <div className="text-center mt-40 pt-20">
+    <div className="text-center mt-40 xl:pt-20 pt-20 lg:pt-10">
       <h1 id="skills" className="text-4xl  font-semibold">
         Educational qualification & Experience
       </h1>
 
-      <div className="flex flex-col w-[80%] mx-auto mt-16">
-        <div className="w-1/2 font-medium">
+      <div className="flex md:flex-row flex-col w-[80%] md:w-[90%] lg:w-[80%] mx-auto mt-16">
+        <div className="lg:w-1/2 font-medium">
           <div className="flex items-center justify-center gap-2">
             <FaGraduationCap className="text-2xl"></FaGraduationCap>
             <h1>Educational qualification</h1>
           </div>
 
-          <div className="w-[50%] mx-auto flex mt-10 relative">
-            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-0 right-[7.6rem]"></div>
-            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-[6rem] right-[7.6rem]"></div>
+          <div className="md:w-[50%] w-[80%] mx-auto flex mt-10 relative">
+            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-0 xl:right-[7.6rem] lg:right-[6.1rem] right-[8.2rem] sm:right-[12.45rem] md:right-[4.9rem]"></div>
+            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-[6rem] xl:right-[7.6rem] lg:right-[6.1rem] right-[8.2rem] sm:right-[12.45rem] md:right-[4.9rem]"></div>
             <div className="w-1/2 border-r-[1.4px] border-[#494949]  flex flex-col items-start">
               <h1 className="text-xs text-left text-black leading-[1.4] -translate-x-4">
                 BSc in Software Engineering, <br /> Daffodil International
@@ -39,15 +39,18 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="w-1/2 font-medium">
+        <div className="md:w-1/2 md:mt-0 mt-20 font-medium">
           <div className="flex items-center justify-center gap-2">
             <HiBriefcase className="text-2xl"></HiBriefcase>
             <h1>Experience</h1>
           </div>
 
-          <div className="w-[50%] mx-auto flex mt-10 relative">
-            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-0 right-[7.6rem]"></div>
-            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-[5rem] right-[7.6rem]"></div>
+          <div className="md:w-[50%] w-[80%] mx-auto flex mt-10 relative">
+            <div
+              className="w-3 h-3 bg-[#494949] rounded-full absolute top-0 xl:right-[7.6rem] lg:right-[6.1rem] right-[8.2rem] 
+            sm:right-[12.45rem] md:right-[5rem]"
+            ></div>
+            <div className="w-3 h-3 bg-[#494949] rounded-full absolute top-[5rem] xl:right-[7.6rem] lg:right-[6.1rem] right-[8.2rem] sm:right-[12.45rem] md:right-[5rem]"></div>
             <div className="w-1/2 border-r-[1.4px] border-[#494949]  flex flex-col items-start">
               <h1 className="text-xs text-left text-black leading-[1.4] -translate-x-4">
                 As Sunnah Book Shop - Social media banner designer

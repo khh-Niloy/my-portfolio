@@ -13,11 +13,11 @@ const ModernCard = () => {
       });
   }, []);
 
-  console.log(card)
+  console.log(card);
 
   return (
     <div id="projects" className="flex justify-center p-8">
-      <div className="grid grid-cols-3 gap-5 w-[80%]">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 md:w-[80%]">
         {card.map((e) => (
           <div
             className="group relative card bg-black/90 shadow-2xl 
@@ -59,7 +59,7 @@ const ModernCard = () => {
                   </li>
                 ))}
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end ">
                 <Link className="w-full" to={`/detailes/${e.id}`}>
                   <button
                     className="btn btn-primary mt-6 w-full rounded-lg bg-zinc-800 py-3 
