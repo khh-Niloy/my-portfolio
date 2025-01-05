@@ -8,6 +8,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
+import { IoIosArrowRoundUp } from "react-icons/io";
+import { Link as ScrollLink } from "react-scroll";
 
 const Banner = () => {
   const tiltRef = useRef(null);
@@ -32,10 +34,11 @@ const Banner = () => {
 
   return (
     <>
-      <div className="w-[85%] relative z-0 flex items-center justify-center mx-auto">
-        <div className="w-[30%] mt-10">
+      <div className="xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto">
+        <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-5xl font-bold mb-2">
-            Greetings, <br /> I’m Niloy <br /><span className="whitespace-nowrap text-5xl">Web Developer</span>
+            Greetings, <br /> I’m Niloy <br />
+            <span className="whitespace-nowrap text-5xl">Web Developer</span>
           </h1>
           <div className="flex items-center justify-start gap-1">
             <FaCode className="text-lg bg-[#1a222e] p-1 rounded-full text-white"></FaCode>
@@ -67,7 +70,7 @@ const Banner = () => {
 
         <div
           ref={tiltRef}
-          className="mt-3 flex flex-col border-[10px] border-black items-center justify-center w-[23.5%] mx-auto rounded-full hover:shadow-2xl duration-500 relative overflow-hidden"
+          className="lg:mt-3 flex flex-col border-[10px] border-black items-center justify-center mt-10 sm:w-[39%] w-[57%] xl:w-[23.5%] lg:w-[28%] mx-auto rounded-full hover:shadow-2xl duration-500 relative overflow-hidden"
         >
           <div className="overflow-hidden border border-black w-full rounded-full h-[23rem]">
             <img
@@ -84,7 +87,7 @@ const Banner = () => {
           <div className="bg-gradient-to-t from-[#000000e6] to-[#00000000] rounded-full duration-300 mt-64 absolute w-full h-full flex"></div>
         </div>
 
-        <div className="w-[30%] mt-10">
+        <div className="w-[30%] mt-10 hidden lg:flex">
           <img src="/right.svg" alt="" />
         </div>
       </div>
@@ -97,6 +100,11 @@ const Banner = () => {
         />
         <h1 className="text-sm text-black font-normal">Scroll Down</h1>
       </div>
+      <ScrollLink to="nav" smooth={true} duration={500}>
+        <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 top-[29.5rem] right-16 flex items-center justify-center rounded-full">
+          <IoIosArrowRoundUp className="text-3xl text-black hover:text-white duration-300"></IoIosArrowRoundUp>
+        </div>
+      </ScrollLink>
     </>
   );
 };

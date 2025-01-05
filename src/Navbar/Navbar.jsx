@@ -20,21 +20,51 @@ const Navbar = () => {
           <a>Projects</a>
         </li>
       </ScrollLink>
-      <li className="cursor-pointer">
-        <a>Contact</a>
-      </li>
+      <ScrollLink to="Contact" smooth={true} duration={500}>
+        <li className="cursor-pointer">
+          <a>Contact</a>
+        </li>
+      </ScrollLink>
     </>
   );
 
   return (
-    <div className="w-[85%] mx-auto mt-2 font">
+    <div id="nav" className="xl:w-[85%] lg:w-[90%] w-[90%] mx-auto mt-2 font">
       <div className="navbar">
-        <div className="flex-1">
-          <Link to={`/`}>
-            <a className="text-xl font-semibold ">Khh Niloy</a>
-          </Link>
+        <div className="navbar-start">
+          <div className="dropdown">
+            <div tabIndex={0} role="button" className="md:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              {links}
+            </ul>
+          </div>
+          <div>
+            <img
+              src="mylogo2.png"
+              className="xl:w-[6%] lg:w-[7%] md:w-[9%] sm:w-[8%] w-[11%]  md:ml-0 sm:ml-[29rem] ml-[18rem]"
+              alt=""
+            />
+          </div>
         </div>
-        <div className="flex-none">
+        <div className="flex-none hidden navbar-end md:flex">
           <ul className="gap-10 text-sm menu-horizontal px-1">{links}</ul>
         </div>
       </div>

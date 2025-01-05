@@ -9,7 +9,7 @@ const Education = () => {
         Educational qualification & Experience
       </h1>
 
-      <div className="flex w-[80%] mx-auto mt-16">
+      <div className="flex flex-col w-[80%] mx-auto mt-16">
         <div className="w-1/2 font-medium">
           <div className="flex items-center justify-center gap-2">
             <FaGraduationCap className="text-2xl"></FaGraduationCap>
