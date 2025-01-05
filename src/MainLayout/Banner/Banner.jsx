@@ -85,7 +85,7 @@ const Banner = () => {
           <div className="overflow-hidden border border-black w-full rounded-full h-[23rem]">
             <img
               className="hover:scale-[1.9] -translate-y-8 duration-300 scale-[1.7] translate-x-[0.7rem] w-full object-cover h-[23rem] rounded-full"
-              src="https://i.ibb.co/PMp0CvY/SAVE-20250102-223315.jpg"
+              src="myimage.jpg"
               alt=""
             />
           </div>
@@ -111,7 +111,7 @@ const Banner = () => {
         <h1 className="text-sm text-black font-normal">Scroll Down</h1>
       </div>
       <ScrollLink to="nav" smooth={true} duration={500}>
-        <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 xl:top-[29.5rem] right-16 lg:top-[32.5rem] md:top-[30.5rem] flex items-center justify-center rounded-full">
+        <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 xl:top-[29.5rem] sm:right-16 lg:top-[32.5rem] md:top-[32.5rem] bottom-5 right-5 flex items-center justify-center rounded-full">
           <IoIosArrowRoundUp className="text-3xl text-black hover:text-white duration-300"></IoIosArrowRoundUp>
         </div>
       </ScrollLink>
