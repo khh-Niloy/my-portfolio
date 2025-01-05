@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Send, Mail, MessageSquare } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa6";
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -10,9 +12,25 @@ const Contact = () => {
     project: "",
   });
 
-  const handleSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+
+    emailjs
+      .sendForm("service_0ovaa67", "template_xmrqy23", form.current, {
+        publicKey: "2lnxgrL-gZWZCnyVy",
+      })
+      .then(
+        () => {
+          toast.success("Your message has been sent successfully");
+          e.target.reset();
+          setFormData({ name: "", email: "", project: "" });
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
 
   return (
@@ -33,7 +51,9 @@ const Contact = () => {
               <div className="flex flex-col items-center">
                 <Mail className="h-6 w-6 mb-2 text-gray-700 transition-colors group-hover:text-gray-900" />
                 <h3 className="text-sm font-medium text-gray-800">Email</h3>
-                <p className="text-sm text-gray-600 mb-3">khhniloy0@gmail.com</p>
+                <p className="text-sm text-gray-600 mb-3">
+                  khhniloy0@gmail.com
+                </p>
                 <button className="text-sm text-gray-600 hover:text-gray-900 flex items-center gap-1 transition-all hover:gap-2">
                   Write me{" "}
                   <span className="transform transition-transform">→</span>
@@ -74,11 +94,12 @@ const Contact = () => {
           <h2 className="text-2xl lg:mt-0 mt-20 lg:text-left text-center font-medium mb-8 text-gray-800">
             Write me your project
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form ref={form} onSubmit={sendEmail} className="space-y-6">
             <div>
               <p className="text-sm text-gray-600 mb-2">Name</p>
               <input
                 type="text"
+                name="name"
                 placeholder="Insert your name"
                 className="w-full p-3 placeholder:text-xs rounded-lg bg-white/80 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:bg-white/95 transition-all duration-300"
                 value={formData.name}
@@ -92,6 +113,7 @@ const Contact = () => {
               <p className="text-sm text-gray-600 mb-2">Mail</p>
               <input
                 type="email"
+                name="email"
                 placeholder="Insert your email"
                 className="w-full p-3 rounded-lg placeholder:text-xs bg-white/80 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:bg-white/95 transition-all duration-300"
                 value={formData.email}
@@ -107,6 +129,7 @@ const Contact = () => {
                 placeholder="Write your project"
                 rows={5}
                 className="resize-none h-[11.3rem] w-full p-3 rounded-lg placeholder:text-xs bg-white/80 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:bg-white/95 transition-all duration-300"
+                name="brief"
                 value={formData.project}
                 onChange={(e) =>
                   setFormData({ ...formData, project: e.target.value })
