@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="67" viewBox="0 0 77 67">
+  <defs>
+    <clipPath id="clip-C">
+      <rect width="77" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="C" clip-path="url(#clip-C)">
+    <g id="icons8-c-programming" transform="translate(5 -3)">
+      <path id="Path_15" data-name="Path 15" d="M31.854,3.429a3.37,3.37,0,0,1,3.289,0C40.176,6.253,55.32,14.755,60.354,17.58A3.179,3.179,0,0,1,62,20.349v28.3a3.183,3.183,0,0,1-1.646,2.77c-5.032,2.824-20.176,11.326-25.21,14.151a3.37,3.37,0,0,1-3.289,0C26.822,62.746,11.678,54.244,6.644,51.42A3.183,3.183,0,0,1,5,48.651V20.35a3.183,3.183,0,0,1,1.645-2.77Z" transform="translate(0 0)" fill="#303030" fill-rule="evenodd"/>
+      <path id="Path_16" data-name="Path 16" d="M5.456,50.106A2.579,2.579,0,0,1,5,48.383V20.244A3.161,3.161,0,0,1,6.641,17.49C11.655,14.682,26.748,6.23,31.763,3.42a3.615,3.615,0,0,1,3.406.012c5.014,2.808,20.056,11.188,25.071,14a3.139,3.139,0,0,1,.99.864Z" transform="translate(0 0)" fill="#303030" fill-rule="evenodd"/>
+      <path id="Path_17" data-name="Path 17" d="M31,10A21,21,0,1,1,10,31,21.01,21.01,0,0,1,31,10Zm0,10.5A10.5,10.5,0,1,1,20.5,31,10.5,10.5,0,0,1,31,20.5Z" transform="translate(2.5 3.5)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_18" data-name="Path 18" d="M51.931,13.2a3.445,3.445,0,0,1,.759,2.676c0,5.692-.048,21.883.013,27.576a3.258,3.258,0,0,1-.484,1.69L23.593,29.4Z" transform="translate(9.296 5.103)" fill="#303030" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

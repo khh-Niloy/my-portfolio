@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="626" height="403" viewBox="0 0 626 403">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e0c1a"/>
+      <stop offset="1" stop-color="#484471"/>
+    </linearGradient>
+    <filter id="Path_1" x="5.335" y="11.407" width="611.301" height="389.809" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.225" result="blur"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_3" x="77.314" y="241" width="81.345" height="48.155" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-2"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7399f5"/>
+      <stop offset="1" stop-color="#87adff"/>
+    </linearGradient>
+    <filter id="Path_5" x="75.636" y="160.978" width="112.255" height="43.955" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-3"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e4777f"/>
+      <stop offset="1" stop-color="#f88b93"/>
+    </linearGradient>
+    <filter id="Path_9" x="263.799" y="174.031" width="124.089" height="54.702" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-4"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e39e40"/>
+      <stop offset="1" stop-color="#f7b254"/>
+    </linearGradient>
+    <filter id="Path_14" x="398.113" y="33.179" width="130.158" height="54.702" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-5"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#db8ded"/>
+      <stop offset="1" stop-color="#efa1ff"/>
+    </linearGradient>
+    <filter id="Path_18" x="346.67" y="264.402" width="124.089" height="54.702" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-6"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#83caf5"/>
+      <stop offset="1" stop-color="#97deff"/>
+    </linearGradient>
+    <filter id="Path_11" x="357.538" y="121.007" width="124.089" height="54.702" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6.763" dy="5.41" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.353" result="blur-7"/>
+      <feFlood flood-color="#3913a0" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="626" height="403"/>
+    </clipPath>
+    <image id="image" width="35.496" height="35.496" xlink:href="data:image/png;base64,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"/>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <rect width="626" height="403" fill="rgba(255,255,255,0)"/>
+    <g id="Group_65" data-name="Group 65" transform="translate(-63 -102)">
+      <g transform="matrix(1, 0, 0, 1, 63, 102)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1" d="M3.936,365.1l-21.163-21.163,53.759-53.759a71.676,71.676,0,0,1,51.04-21.148l.508,0a71.682,71.682,0,0,1,51.255,21.847,29.553,29.553,0,0,0,21.13,9.007h.209a29.544,29.544,0,0,0,21.041-8.719,29.928,29.928,0,0,0,.432-41.656l-16.721-17.429a56.8,56.8,0,1,1,80.966-79.68c18.8,19.3,43.309,44.444,63.495,65.153a39.518,39.518,0,0,0,55.509.921l1.025-.984a41.127,41.127,0,0,0,12.795-29.472,40.636,40.636,0,0,0-12.026-29.381l-19.121-19.082a57.35,57.35,0,0,1-.037-81.143l1.709-1.709a57.385,57.385,0,0,1,40.586-17h.21a56.468,56.468,0,0,1,40.231,16.69l1.069,1.07A43.46,43.46,0,0,0,462.774,70.3h.015a43.447,43.447,0,0,0,30.926-12.81L559.236-8.036,580.4,13.126,514.877,78.649a73.186,73.186,0,0,1-52.088,21.575h-.026a73.188,73.188,0,0,1-52.1-21.609l-1.07-1.07a26.755,26.755,0,0,0-19.06-7.913h-.1a27.641,27.641,0,0,0-19.53,8.234l-1.709,1.709a27.421,27.421,0,0,0,.016,38.8l19.118,19.08a71.029,71.029,0,0,1-1.185,101.631l-1.026.985a69.334,69.334,0,0,1-97.662-1.626c-20.188-20.71-44.7-45.862-63.5-65.157a26.871,26.871,0,1,0-38.247,37.752l.216.222,16.82,17.53a59.695,59.695,0,0,1-43.063,101.022h-.42a59.265,59.265,0,0,1-42.375-18.063,41.965,41.965,0,0,0-30.009-12.792h-.3A41.964,41.964,0,0,0,57.694,311.34Z" transform="translate(36.24 19.44)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_1" data-name="Group 1" transform="translate(91.853 123.25)" opacity="0.2" style="mix-blend-mode: hard-light;isolation: isolate">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="4.176" height="2.088" transform="translate(0 351.973) rotate(-45)" fill="#fff"/>
+        <path id="Path_2" data-name="Path 2" d="M11.066,354.637,9.59,353.161l5.868-5.869,1.477,1.476ZM22.8,342.9l-1.476-1.477,5.868-5.869,1.476,1.476Zm11.737-11.738-1.477-1.476,5.869-5.869,1.476,1.477ZM168.823,324.1a46.1,46.1,0,0,1-7.564-.626l.343-2.059a43.983,43.983,0,0,0,8.075.59l.038,2.088Q169.268,324.1,168.823,324.1Zm9.32-.954-.424-2.045a43.623,43.623,0,0,0,7.738-2.368l.794,1.931A45.843,45.843,0,0,1,178.143,323.143Zm-25.085-1.834a45.551,45.551,0,0,1-7.659-3.645l1.069-1.794a43.5,43.5,0,0,0,7.308,3.479ZM46.278,319.426,44.8,317.95l5.869-5.869,1.476,1.476Zm147.482-2.707-1.139-1.749a44,44,0,0,0,6.345-5.026l1.441,1.51A46.029,46.029,0,0,1,193.76,316.718Zm-55.21-4.058c-.869-.767-1.722-1.58-2.535-2.416-1.114-1.144-2.285-2.25-3.479-3.286l1.369-1.577c1.238,1.075,2.451,2.222,3.606,3.408.777.8,1.592,1.574,2.421,2.307Zm-80.524-4.887-1.4-1.547a58.47,58.47,0,0,1,6.647-5.206l1.164,1.733A56.346,56.346,0,0,0,58.026,307.774Zm147.955-2.711-1.693-1.222a43.467,43.467,0,0,0,4.1-6.976l1.891.885A45.6,45.6,0,0,1,205.981,305.063Zm-79.959-2.982a55.847,55.847,0,0,0-7.154-3.879l.859-1.9a58.016,58.016,0,0,1,7.422,4.025ZM71.5,298.718l-.9-1.884a58.162,58.162,0,0,1,7.864-3.075l.617,1.994A56.168,56.168,0,0,0,71.5,298.718Zm39.721-3.313a56.576,56.576,0,0,0-7.969-1.663l.278-2.069A58.55,58.55,0,0,1,111.8,293.4Zm-24.209-1.487-.322-2.064a58.865,58.865,0,0,1,8.413-.7l.022,2.088A56.608,56.608,0,0,0,87.015,293.917Zm126.133-4.148-2.022-.521a43.939,43.939,0,0,0,1.283-7.992l2.083.14A46.041,46.041,0,0,1,213.148,289.769Zm-.944-16.605a43.838,43.838,0,0,0-1.689-7.916l1.993-.622a45.867,45.867,0,0,1,1.771,8.294Zm-4.814-15.38a43.6,43.6,0,0,0-4.454-6.755l1.629-1.306a45.752,45.752,0,0,1,4.668,7.078Zm138.871-4.116c-1.415,0-2.851-.056-4.267-.164l.159-2.082a53.777,53.777,0,0,0,8.133.006l.156,2.082C349.055,253.614,347.648,253.668,346.262,253.668Zm12.534-1.43-.47-2.034a53.321,53.321,0,0,0,7.758-2.433l.776,1.938A55.248,55.248,0,0,1,358.8,252.238Zm-25.153-.02a55.236,55.236,0,0,1-8.06-2.538l.777-1.937a53.221,53.221,0,0,0,7.756,2.442Zm40.8-6.24-1.064-1.8a53.6,53.6,0,0,0,6.662-4.665l1.324,1.615A55.647,55.647,0,0,1,374.44,245.979ZM318,245.939a55.341,55.341,0,0,1-6.915-4.856l1.327-1.612a53.235,53.235,0,0,0,6.654,4.672Zm-120.62-.947L191.638,239l1.507-1.445,5.745,5.989Zm190.132-9.609L386,233.942a56.118,56.118,0,0,0,5.174-6.286l1.7,1.206A58.1,58.1,0,0,1,387.515,235.382Zm-82.532-.082-5.794-5.945,1.5-1.457,5.794,5.945Zm-119.091-2.286-2.366-2.467a43.434,43.434,0,0,1-3.312-3.718l1.636-1.3a41.59,41.59,0,0,0,3.167,3.554l2.381,2.483Zm107.5-9.6-5.795-5.945,1.5-1.457,5.795,5.945Zm103.844-1.784-1.864-.942a55.146,55.146,0,0,0,3.122-7.514l1.982.656A57.362,57.362,0,0,1,397.238,221.625Zm-221.61-1.945a42.709,42.709,0,0,1-3.077-7.916l2.012-.558a40.649,40.649,0,0,0,2.926,7.529ZM281.8,211.514l-5.8-5.947,1.5-1.457,5.8,5.947Zm120.73-5.881-2.057-.358a55.262,55.262,0,0,0,.8-8.1l2.088.051A57.538,57.538,0,0,1,402.531,205.634ZM171.1,203.4c-.077-1.041-.115-2.1-.116-3.152a43.258,43.258,0,0,1,.331-5.336l2.072.258a41.116,41.116,0,0,0-.315,5.077c0,1,.038,2.009.11,3Zm99.115-3.774-5.791-5.942,1.5-1.457,5.791,5.942Zm130.66-10.574a55,55,0,0,0-1.593-7.978l2.012-.56a57.186,57.186,0,0,1,1.653,8.282Zm-142.245-1.313-5.794-5.947,1.495-1.457,5.794,5.947Zm-83.455-.448-1.981-.661a42.709,42.709,0,0,1,3.479-7.747l1.81,1.041A40.614,40.614,0,0,0,175.173,187.289Zm71.867-11.445-3.962-4.066c-.6-.612-1.216-1.21-1.842-1.778l1.4-1.546c.657.6,1.308,1.224,1.933,1.866l3.962,4.067Zm149.482-2.426a54.6,54.6,0,0,0-3.867-7.156l1.757-1.128a56.7,56.7,0,0,1,4.016,7.431Zm-213.337-.061-1.569-1.378c.614-.7,1.26-1.389,1.924-2.053a43.49,43.49,0,0,1,4.276-3.75l1.27,1.657a41.389,41.389,0,0,0-4.07,3.569C184.387,172.033,183.77,172.69,183.186,173.356Zm51.561-8.165a40.616,40.616,0,0,0-7.314-3.426l.694-1.97a42.746,42.746,0,0,1,7.69,3.6Zm-38.792-1.611-.917-1.876a42.773,42.773,0,0,1,7.964-2.95l.527,2.021A40.626,40.626,0,0,0,195.954,163.581Zm23.629-3.728a41.189,41.189,0,0,0-8.073-.333l-.12-2.085a43.121,43.121,0,0,1,8.485.351Zm168.182-.1c-.828-.947-1.7-1.878-2.592-2.768l-3.126-3.118,1.461-1.493,3.14,3.133c.926.923,1.83,1.89,2.689,2.871Zm-11.607-11.764-5.875-5.863,1.475-1.478,5.876,5.863Zm-11.742-11.81a43.465,43.465,0,0,1-5.033-6.837l1.794-1.067a41.39,41.39,0,0,0,4.792,6.508Zm-8.634-14.526a43.477,43.477,0,0,1-2.028-8.245l2.066-.3a41.492,41.492,0,0,0,1.93,7.848Zm-.335-16.617-2.085-.107a43.677,43.677,0,0,1,1.257-8.4l2.025.509A41.554,41.554,0,0,0,355.448,105.04ZM472.615,94.484l-.059-2.088a58.04,58.04,0,0,0,8.106-.8l.351,2.058A60.216,60.216,0,0,1,472.615,94.484Zm-8.431-.359a60.1,60.1,0,0,1-8.3-1.537l.525-2.021a58.047,58.047,0,0,0,8.009,1.484Zm25.029-2.467-.636-1.989a57.411,57.411,0,0,0,7.559-3.028l.913,1.878A59.632,59.632,0,0,1,489.213,91.658ZM447.886,89.9a59.457,59.457,0,0,1-7.538-3.8l1.07-1.793a57.484,57.484,0,0,0,7.273,3.664Zm-88.51-.456-1.887-.9a43.279,43.279,0,0,1,4.378-7.275l1.675,1.247A41.127,41.127,0,0,0,359.376,89.441ZM504.356,84.3l-1.169-1.73a57.984,57.984,0,0,0,6.407-5.027l1.4,1.548A59.981,59.981,0,0,1,504.356,84.3Zm-70.931-3.033a60.719,60.719,0,0,1-4.761-4.287l-1.408-1.406,1.461-1.492,1.425,1.422a58.283,58.283,0,0,0,4.6,4.139Zm-64.447-4.806L367.5,74.986l.235-.235a45.028,45.028,0,0,1,6.256-5.217l1.185,1.719a42.827,42.827,0,0,0-5.965,4.974Zm147.976-3.221-1.477-1.476,5.869-5.869,1.476,1.476Zm-96-2.726a40.6,40.6,0,0,0-7.172-3.717l.771-1.94a42.669,42.669,0,0,1,7.541,3.908ZM382.246,67.33l-.831-1.915a43.518,43.518,0,0,1,8.083-2.6l.441,2.04A41.466,41.466,0,0,0,382.246,67.33Zm23.774-2.755a41.218,41.218,0,0,0-7.335-.659c-.239,0-.479,0-.718.006l-.038-2.088c.252,0,.5,0,.757-.006a43.251,43.251,0,0,1,7.707.693ZM528.69,61.5l-1.476-1.476,5.868-5.868,1.476,1.476Zm11.737-11.737-1.476-1.477,5.869-5.868L546.3,43.9ZM552.164,38.03l-1.476-1.476,5.869-5.869,1.476,1.476ZM563.9,26.294l-1.477-1.477,5.869-5.869,1.476,1.476Z" transform="translate(-0.769 -10.01)" fill="#fff"/>
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="4.176" height="2.088" transform="translate(573.511 2.953) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(129.763 343.453)">
+        <g id="Group_8" data-name="Group 8" transform="translate(0 -7)">
+          <g transform="matrix(1, 0, 0, 1, -66.76, -234.45)" filter="url(#Path_3)">
+            <path id="Path_3-2" data-name="Path 3" d="M51.383,324.871V349.6c0,1.315.776,2.381,1.733,2.381H77.724a1.5,1.5,0,0,1,1.144.593l6.633,8.007a1.4,1.4,0,0,0,2.289,0l6.632-8.007a1.5,1.5,0,0,1,1.144-.593h24.608c.957,0,1.733-1.066,1.733-2.381V324.871c0-1.315-.776-2.381-1.733-2.381H53.116C52.159,322.49,51.383,323.556,51.383,324.871Z" transform="translate(36.75 -81.49)" fill="#fff"/>
+          </g>
+          <text id="Started_my_design_journey_in_2019." data-name="Started my design
+ journey in 2019." transform="translate(56.237 18.547)" stroke="#707070" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-28.572" y="0">Started my design</tspan><tspan x="-26.171" y="9" xml:space="preserve"> journey in 2019.</tspan></text>
+        </g>
+        <g id="Group_12" data-name="Group 12" transform="translate(34.584 48.429)">
+          <image id="Rectangle_6" data-name="Rectangle 6" width="35.496" height="35.496" opacity="0.16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAZxSURBVGhD3ZoHkuVEEAVn8d4uHi7CZfZsXIaL4GHxHpYdOhWdiqdS6883moDYingh21WVXSXFV8/cub6+vnpU7LG+vTX78O5Hd1A/vFXbrTKRcCZeITLYtP/x/Xu7tcZFMAUgRcXzGmYgtg/7NnUx2FkwAWHSbB8fbLmWMOifJmDqlmtsz4Y6GaaDkKx6IvRkl8feg5EoetD1d5fHyHsengN0NEyHyCqY/NOhZ/r2qSahEkaIv5r+bPqjb5Vwc7VOgToKJqohBMmS9LNdzzc917ccCzWCEeL3pl+bfutbjhHXgZ2hjgW6EaaBkIwgQpj4C00vNb3YtxwnENVJGGY+QX5p+qnp577lWEChBGL8QTsI0yuS1SBJAV7perVvX24CyioBPYIhSasBxI9NPzR937dIMKDnKt1UoU2YaC1ArAYQJP96192m1/o5YbgPaOBHbUZyJAmQMIB813S/6dsuzgFllRh7sOUOwVQQkgXgjaa3utjnHJUBVBCr4usZIxAtY3UEImGqAcA3TV81fd0FILBUUaDNl8IQJtqL2RWEKgDwbtfbTW82URVAaC+eE8YIwoQkDNURiArx/JAoQFQCmC+bPu8CjGoBBPj0DG09PyuY0l7MMoky++80vdf0QdP7TcBwHlBBfB1XEC2BmGVfCACRMNUR5pOmz5q+aOK8LceYYbvZz9WyxUiUNiJxKgOEVbHFfFZ8JScU29znGvdwL2MYiw8qj08mzRi0MZXnpeNk4Wf443UBE1VBDPTtZTCcJ0RtL5J1vL7Y5r7XuZcxjMUHUCQuFCIeLxifRybBqq9sdJKABGKgbUYQnALhmwvI+tZSAlTzfN4rlBPniwYoxL6tbNWNsTBOphlIGGeMKgBRq2HZdb4KcMC8n7H4yE7ICczJI6YTt2q1GaZfQPY2MJQWxzhDIxAdLhwfaY5JIHwLNIpLFTPubDNMN27gnE5xgGOqkw95gqhzzbEVyK4A5FDs2RLGizr0mcEpwlk+I0OHZ5p+yAffAhGPuMYmJ9ssc5+snvAmBpB0OtTZ5szsYBWIeOSAjC3MKnaF4QYSrc7YAifI0NmFpr8KRFxjcy7jL3JIGC8igXQ4coQtnO1g6Zc4xFPG59ocN99oE0x5xXlzOlJew3LMnlZjoKyEWllWRsub0wnmvsf/KxvB8APOH3H8KMxj9z2+DRvFyzzUyiaY8gvUm/llW5WOcsxelr79da2mr82mzGGRe1bGm5CD/ZmOdOYsYbOjHSx91s8E45sD96jZaptxMZ3wdedyEB9GnKtAexo+BSEWMTMHoQRaWIXBEWKAX4J+3rLluALtAaWfBBnFJidyM8+FjdosneGIVRJVgQRxe46ljwqSscmlxl7EHbUZxAygrLkcxGcr+wThmuV2hhaOjzTHWBF84psYrqURm30XNciN+1fxZpj+VkA6ZRZcbMh1LY6r43OAEgTlBG7FJCcncbVKc0xlmBmWfFzPYh/nlF4gK8R4tWV5D2MYazx84rvGI4c6gasYFQbjJgIwkD7FOU5Zx2Lph+Ugl38ITkvUB9NETVrlNcQYxvp84BPfuX5GbHIgF3KaqtK0sgVMLxtBnC2C4Ihy45hlIJZ+DGSVfDiFshVG8rpvSycMX04YMYjFsSub5DJ3QW0xbGsREEh+pfLTnw8zPl1ZKWH5hwVA1s9YEmIFJVdP+FwY/brWcrIAGsEAwnoZa2cAUaVsswcNBB8rG7UZRlACWh3eJpSbWXOBDn3ajzlPe5CQDyxiXMrz3MO9jNEnvvSrT2IyLquynv1uNy2cM8PMNDNOhagASz+unyGWg6gO1XMFhY8pxtXJyueEqvicCEZlENXwWVm8xUbtpW3CYL3dEB9ntBytBBBLTgC4ruVyEAsP9VvdViOQMLSLFQeG54Lka3V96Kc32FZ7aQdhsADyGSJZV2yAQi4HcT5h/KDDCOSzIoyvYoAAQAD6lpyekabL/9ikFaCsEq0HgPIlkG02qky+yUhc0VJZjaNBsKNgsP4MkZzPEQkDRfJUg60gANfPbAJZHRIVCFEFtkD4eue+4St4y46GwTpQhSJxAZDtlS2mCWO7ASWYlZggmk76SzN2EowWVVImjzwneBrBEMkiwQSYdCqEdhYM1oGwTBx5rLmfgQRiqzg++78zsLNhtIAaAWxZBp32L4HQLobZsoBc2B5Jb9mtwfwXRn8/InZ19S/11FgHobyQQgAAAABJRU5ErkJggg==" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_11" data-name="Group 11" transform="translate(2.419 -5.761)">
+            <g id="Group_9" data-name="Group 9" transform="translate(0.206 0)">
+              <circle id="Ellipse_1" data-name="Ellipse 1" cx="15.788" cy="15.788" r="15.788" transform="matrix(0.276, -0.961, 0.961, 0.276, 0, 30.352)" fill="#fff"/>
+              <text id="_01" data-name="01" transform="translate(18.36 22.965)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-7.073" y="0">01</tspan></text>
+            </g>
+            <g id="Group_10" data-name="Group 10" transform="translate(-0.455 0.293)">
+              <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="15.902" cy="15.902" rx="15.902" ry="15.902" transform="matrix(0.276, -0.961, 0.961, 0.276, 0, 30.656)" stroke="#fff" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient-2)"/>
+              <text id="_2019" data-name="2019" transform="translate(19.69 22.585)" fill="#fff" font-size="8" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-9.323" y="0">2019</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(136.779 265.978)">
+        <g id="Group_18" data-name="Group 18" transform="translate(12.678 -3)">
+          <g transform="matrix(1, 0, 0, 1, -86.46, -160.98)" filter="url(#Path_5)">
+            <path id="Path_5-2" data-name="Path 5" d="M156.328,218.786V213.96A2.588,2.588,0,0,0,154,211.176H63.8a2.588,2.588,0,0,0-2.332,2.784v28.919a2.588,2.588,0,0,0,2.332,2.784H154a2.588,2.588,0,0,0,2.332-2.784v-4.826a3.056,3.056,0,0,1,.757-2.053l5.056-5.527a3.162,3.162,0,0,0,0-4.106l-5.056-5.527A3.055,3.055,0,0,1,156.328,218.786Z" transform="translate(24.99 -50.2)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_22" data-name="Group 22" transform="translate(114.112 -1.346)">
+          <image id="Rectangle_8" data-name="Rectangle 8" width="41.123" height="41.123" transform="translate(0 2.349)" opacity="0.16" xlink:href="data:image/png;base64,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" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_21" data-name="Group 21" transform="translate(2.891 -3.622)">
+            <g id="Group_19" data-name="Group 19" transform="translate(0 0)">
+              <circle id="Ellipse_3" data-name="Ellipse 3" cx="15.718" cy="15.718" r="15.718" transform="translate(0 22.228) rotate(-45)" fill="#fff"/>
+              <text id="_02" data-name="02" transform="translate(20.096 23.712)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-5.985" y="0">02</tspan></text>
+            </g>
+            <g id="Group_20" data-name="Group 20" transform="translate(0 0)">
+              <circle id="Ellipse_4" data-name="Ellipse 4" cx="15.718" cy="15.718" r="15.718" transform="translate(0 22.228) rotate(-45)" stroke="#fff" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient-3)"/>
+              <text id="_2020" data-name="2020" transform="translate(22.228 26.228)" fill="#fff" font-size="9" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-10.489" y="0">2020</tspan></text>
+            </g>
+          </g>
+        </g>
+        <text id="_2020_Began_professional_design_work." data-name="2020 Began professional
+ design work." transform="translate(60.221 13.022)" stroke="#707070" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-38.622" y="0">2020 Began professional</tspan><tspan x="-20.899" y="9" xml:space="preserve"> design work.</tspan></text>
+      </g>
+      <g id="Group_32" data-name="Group 32" transform="translate(334.619 279.031)">
+        <g id="Group_27" data-name="Group 27" transform="translate(3 -3)">
+          <g transform="matrix(1, 0, 0, 1, -274.62, -174.03)" filter="url(#Path_9)">
+            <path id="Path_9-2" data-name="Path 9" d="M345.717,232.714v28.917a2.784,2.784,0,0,0,2.784,2.784h39.522a2.783,2.783,0,0,1,1.838.693l10.652,9.363a2.785,2.785,0,0,0,3.676,0l10.652-9.363a2.783,2.783,0,0,1,1.838-.693H456.2a2.784,2.784,0,0,0,2.784-2.784V232.714a2.784,2.784,0,0,0-2.784-2.784H348.5A2.784,2.784,0,0,0,345.717,232.714Z" transform="translate(-71.1 -55.9)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_31" data-name="Group 31" transform="translate(34.351 48.819)">
+          <image id="Rectangle_10" data-name="Rectangle 10" width="35.496" height="35.496" opacity="0.16" xlink:href="data:image/png;base64,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" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_30" data-name="Group 30" transform="translate(12.09 3.824)">
+            <g id="Group_28" data-name="Group 28" transform="translate(-0.182 -0.182)">
+              <circle id="Ellipse_5" data-name="Ellipse 5" cx="10.43" cy="10.43" r="10.43" fill="#fff"/>
+              <text id="_03" data-name="03" transform="translate(9.033 12.451)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-4.352" y="0">03</tspan></text>
+            </g>
+            <g id="Group_29" data-name="Group 29" transform="translate(-4.538 -4.538)">
+              <circle id="Ellipse_6" data-name="Ellipse 6" cx="14.785" cy="14.785" r="14.785" stroke="#fff" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient-4)"/>
+              <text id="_2022" data-name="2022" transform="translate(14.477 17.863)" fill="#fff" font-size="8" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-9.323" y="0">2022</tspan></text>
+            </g>
+          </g>
+        </g>
+        <text id="_2022_-_Started_HTML_CSS_but_couldn_t_continue" data-name="2022 - Started HTML,
+ CSS, but couldn&apos;t continue" transform="translate(59.381 11.969)" stroke="#707070" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-33.476" y="0">2022 - Started HTML,</tspan><tspan x="-42.616" y="9" xml:space="preserve"> CSS, but couldn&apos;t continue</tspan></text>
+      </g>
+      <g id="Group_52" data-name="Group 52" transform="translate(474.968 135.179)">
+        <g id="Group_47" data-name="Group 47" transform="translate(-3.035)">
+          <g transform="matrix(1, 0, 0, 1, -408.93, -33.18)" filter="url(#Path_14)">
+            <path id="Path_14-2" data-name="Path 14" d="M547.368,26.03V54.947a2.862,2.862,0,0,0,2.933,2.784h41.64a3.024,3.024,0,0,1,1.936.693L605.1,67.787a3.052,3.052,0,0,0,3.873,0L620.2,58.424a3.025,3.025,0,0,1,1.937-.693h41.639a2.862,2.862,0,0,0,2.933-2.784V26.03a2.861,2.861,0,0,0-2.933-2.784H550.3A2.861,2.861,0,0,0,547.368,26.03Z" transform="translate(-138.43 9.93)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_51" data-name="Group 51" transform="translate(34.594 48.599)">
+          <image id="Rectangle_14" data-name="Rectangle 14" width="35.496" height="36.192" opacity="0.16" xlink:href="data:image/png;base64,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" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_50" data-name="Group 50" transform="translate(11.228 3.424)">
+            <g id="Group_48" data-name="Group 48">
+              <circle id="Ellipse_9" data-name="Ellipse 9" cx="10.867" cy="10.867" r="10.867" fill="#fff"/>
+              <text id="_06" data-name="06" transform="translate(10.244 14.596)" fill="#fff" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-5.441" y="0">06</tspan></text>
+            </g>
+            <g id="Group_49" data-name="Group 49">
+              <circle id="Ellipse_10" data-name="Ellipse 10" cx="13.867" cy="13.867" r="13.867" transform="translate(-3 -3)" stroke="#fcfcfc" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient-5)"/>
+              <text id="_2024" data-name="2024" transform="translate(10.244 14.596)" fill="#fff" font-size="8" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-9.323" y="0">2024</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_62" data-name="Group 62" transform="translate(420.491 334.114)">
+        <g id="Group_57" data-name="Group 57" transform="translate(0 32.288)">
+          <g transform="matrix(1, 0, 0, 1, -357.49, -264.4)" filter="url(#Path_18)">
+            <path id="Path_18-2" data-name="Path 18" d="M582.365,397.913V369a2.784,2.784,0,0,0-2.784-2.784H540.059a2.786,2.786,0,0,1-1.838-.693l-10.652-9.363a2.784,2.784,0,0,0-3.676,0l-10.652,9.363a2.786,2.786,0,0,1-1.838.693H471.88A2.784,2.784,0,0,0,469.1,369v28.917a2.784,2.784,0,0,0,2.784,2.784h107.7A2.784,2.784,0,0,0,582.365,397.913Z" transform="translate(-111.61 -91.06)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_61" data-name="Group 61" transform="translate(34.088)">
+          <use id="Rectangle_16" data-name="Rectangle 16" opacity="0.16" xlink:href="#image" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_60" data-name="Group 60" transform="translate(11.68 2.989)">
+            <g id="Group_58" data-name="Group 58">
+              <circle id="Ellipse_11" data-name="Ellipse 11" cx="10.867" cy="10.867" r="10.867" fill="#fff"/>
+              <text id="_04" data-name="04" transform="translate(10.244 14.596)" fill="#fff" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-5.441" y="0">04</tspan></text>
+            </g>
+            <g id="Group_59" data-name="Group 59">
+              <circle id="Ellipse_12" data-name="Ellipse 12" cx="13.867" cy="13.867" r="13.867" transform="translate(-3 -3)" stroke="#fff" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient-6)"/>
+              <text id="_2023" data-name="2023" transform="translate(11.244 14.367)" fill="#fff" font-size="8" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-9.323" y="0">2023</tspan></text>
+            </g>
+          </g>
+        </g>
+        <text id="_2023_-_Admitted_to_Daffodil_International_University." data-name="2023 - Admitted to
+Daffodil International University." transform="translate(56.509 57.886)" stroke="#040404" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-30.099" y="0">2023 - Admitted to</tspan><tspan x="-50.833" y="9">Daffodil International University.</tspan></text>
+      </g>
+      <g id="Group_64" data-name="Group 64">
+        <g id="Group_42" data-name="Group 42" transform="translate(431.358 223.007)">
+          <g id="Group_37" data-name="Group 37">
+            <g transform="matrix(1, 0, 0, 1, -368.36, -121.01)" filter="url(#Path_11)">
+              <path id="Path_11-2" data-name="Path 11" d="M484.71,152.219v28.917a2.784,2.784,0,0,0,2.784,2.784h39.522a2.783,2.783,0,0,1,1.838.693l10.652,9.363a2.784,2.784,0,0,0,3.676,0l10.652-9.363a2.785,2.785,0,0,1,1.838-.693h39.522a2.784,2.784,0,0,0,2.784-2.784V152.219a2.784,2.784,0,0,0-2.784-2.784h-107.7A2.784,2.784,0,0,0,484.71,152.219Z" transform="translate(-116.35 -28.43)" fill="#fff"/>
+            </g>
+            <text id="_2023_-_Learned_C_and_C_began_problem-solving." data-name="2023 - Learned C and C++,
+began problem-solving." transform="translate(56.642 15.993)" stroke="#707070" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-42.632" y="0">2023 - Learned C and C++,</tspan><tspan x="-37.588" y="9">began problem-solving.</tspan></text>
+          </g>
+        </g>
+        <g id="Group_63" data-name="Group 63" transform="translate(465.578 273.043)">
+          <use id="Rectangle_16-2" data-name="Rectangle 16" opacity="0.16" xlink:href="#image" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g id="Group_60-2" data-name="Group 60" transform="translate(11.68 2.989)">
+            <g id="Group_58-2" data-name="Group 58">
+              <circle id="Ellipse_11-2" data-name="Ellipse 11" cx="10.867" cy="10.867" r="10.867" fill="#fff"/>
+              <text id="_04-2" data-name="04" transform="translate(10.244 14.596)" fill="#fff" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-5.441" y="0">04</tspan></text>
+            </g>
+            <g id="Group_59-2" data-name="Group 59">
+              <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="13.867" cy="13.867" r="13.867" transform="translate(-3 -3)" fill="#8eefcc" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+              <text id="_2023-2" data-name="2023" transform="translate(11.244 14.367)" fill="#fff" font-size="8" font-family="Gadugi-Bold, Gadugi" font-weight="700" letter-spacing="0.01em"><tspan x="-9.323" y="0">2023</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="_2024_-_Joined_Programming_Hero_learning_MERN." data-name="2024 - Joined Programming Hero,
+ learning MERN." transform="translate(532 151)" stroke="#707070" stroke-width="0.15" font-size="7" font-family="Gadugi" letter-spacing="0.01em"><tspan x="-53.398" y="0">2024 - Joined Programming Hero,</tspan><tspan x="-25.337" y="9" xml:space="preserve"> learning MERN.</tspan></text>
+    </g>
+  </g>
+</svg>

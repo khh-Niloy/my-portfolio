@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "image": "madchef.png",
+    "name": "Madchef",
+    "description": "Developing a full-stack Restaurant Management website using the MERN stack to enhance customer experience and streamline staff operations. The platform features a user-friendly interface, enables seamless interactions, and simplifies management processes for efficient and scalable restaurant operations.",
+    "tech": ["Node.js", "React.js", "Express.js", "MongoDB"],
+    "live": "https://madchef-1487d.web.app/",
+    "github": "https://github.com/khh-Niloy/ph-projects/tree/main/Madchef-A11/madchef-client-side",
+    "features": [
+      "Login and Register with email/password or social logins (Google/GitHub).",
+      "Browse through available food items, including details such as price, quantity, and purchase count.",
+      "Buy food items based on availability, and track orders.",
+      "View and interact with food images in a gallery format.",
+      "Add, update, and manage food items you’ve listed for sale.",
+      "Secure private routes with JSON Web Tokens for user verification."
+    ]
+  },
+  {
+    "id": 2,
+    "image": "nextstep.png",
+    "name": "NextStep",
+    "description": "NextStep is a career counseling platform offering personalized services like counseling sessions, resume reviews, and feedback tools. It features user authentication, protected routes, and a responsive design for seamless browsing on all devices.",
+    "tech": ["Node.js", "React.js", "Express.js"],
+    "live": "https://thriving-starlight-762625.netlify.app/",
+    "github": "https://github.com/khh-Niloy/ph-projects/tree/main/Next%20Step",
+    "features": [
+      "Includes one-on-one counseling, resume reviews, and actionable feedback.",
+      "Protects user data with advanced authentication features and ensures safe access.",
+      "Seamless browsing experience across desktops, tablets, and smartphones.",
+      "Offers feedback forms, progress trackers, and dynamic content updates.",
+      "Intuitive design with well-organized sections and quick access to services.",
+      "Provides guides, tips, and resources for interview preparation and skill-building."
+    ]
+  },
+  {
+    "id": 3,
+    "image": "EquiSports.png",
+    "name": "EquiSports",
+    "description": "EquiSports is an online store for sports equipment, allowing customers to browse, purchase, and review products. It features user authentication, dynamic product management, and responsive design with a light/dark theme toggle.",
+    "tech": ["Node.js", "React.js", "Express.js", "MongoDB"],
+    "live": "https://nextstep-5556e.web.app/",
+    "github": "https://github.com/khh-Niloy/ph-projects/tree/main/EquiSports-A10/equiSports-client-side",
+    "features": [
+      "Secure user login and registration using email/password or third-party authentication (Google).",
+      "Dynamically fetch, post, and update products in the store using MongoDB.",
+      "Fully responsive design for mobile, tablet, and desktop views.",
+      "Users can add, update, and delete their own equipment in the system.",
+      "Users can toggle between dark and light themes.",
+      "Allows customers to leave ratings and reviews for products they purchase."
+    ]
+  }
+]
