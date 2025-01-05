@@ -53,11 +53,14 @@ const Banner = () => {
           </h1>
 
           <div className="flex gap-2 -translate-y-3">
-            <ScrollLink to="projects" smooth={true} duration={500}>
+            <a
+              href="https://docs.google.com/document/d/1kjlcC3CVjy6LkDzA_BB3eZeE0zQ8nL14gpRiUXybCCs/edit?tab=t.0"
+              target="_blank"
+            >
               <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
-                My projects
+                View Resume
               </button>
-            </ScrollLink>
+            </a>
             <a href="/Resume.pdf" download="Niloy_Resume.pdf">
               <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 bg-[#1e2735] text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
                 Download Resume
