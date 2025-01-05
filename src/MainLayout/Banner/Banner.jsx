@@ -34,7 +34,7 @@ const Banner = () => {
 
   return (
     <>
-      <div className="xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto">
+      <div id="banner" className="mt-[4.5rem] xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto">
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-5xl font-bold mb-2">
             Greetings, <br /> I’m Niloy <br />
@@ -80,7 +80,7 @@ const Banner = () => {
 
         <div
           ref={tiltRef}
-          className="lg:mt-3 flex flex-col border-[10px] border-black items-center justify-center mt-10 sm:w-[39%] w-[57%] xl:w-[23.5%] lg:w-[28%] mx-auto rounded-full hover:shadow-2xl duration-500 relative overflow-hidden"
+          className="lg:mt-3 flex flex-col border-[10px] border-black items-center justify-center mt-10 sm:w-[39%] w-[57%] xl:w-[23.5%] lg:w-[27.5%] md:w-[36.5%] mx-auto rounded-full hover:shadow-2xl duration-500 relative overflow-hidden"
         >
           <div className="overflow-hidden border border-black w-full rounded-full h-[23rem]">
             <img
@@ -110,7 +110,7 @@ const Banner = () => {
         />
         <h1 className="text-sm text-black font-normal">Scroll Down</h1>
       </div>
-      <ScrollLink to="nav" smooth={true} duration={500}>
+      <ScrollLink to="banner" smooth={true} duration={500}>
         <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 xl:top-[29.5rem] sm:right-16 lg:top-[32.5rem] md:top-[32.5rem] bottom-5 right-5 flex items-center justify-center rounded-full">
           <IoIosArrowRoundUp className="text-3xl text-black hover:text-white duration-300"></IoIosArrowRoundUp>
         </div>
