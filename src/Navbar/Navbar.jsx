@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
@@ -27,6 +27,8 @@ const Navbar = () => {
       </ScrollLink>
     </>
   );
+
+  const navigate = useNavigate();
 
   return (
     <div className="flex items-center justify-center w-full backdrop-blur-md fixed top-0 z-50">
@@ -59,8 +61,11 @@ const Navbar = () => {
             </div>
             <div>
               <img
+                onClick={() => {
+                  navigate("/");
+                }}
                 src="mylogo2.png"
-                className="xl:w-[6%] lg:w-[7%] md:w-[9%] sm:w-[8%] w-[11%]  md:ml-0 sm:ml-[29rem] ml-[18rem]"
+                className="xl:w-[6%] cursor-pointer lg:w-[7%] md:w-[9%] sm:w-[8%] w-[11%]  md:ml-0 sm:ml-[29rem] ml-[18rem]"
                 alt=""
               />
             </div>

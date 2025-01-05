@@ -34,7 +34,10 @@ const Banner = () => {
 
   return (
     <>
-      <div id="banner" className="mt-[4.5rem] xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto">
+      <div
+        id="banner"
+        className="mt-[4.5rem] xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto"
+      >
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-5xl font-bold mb-2">
             Greetings, <br /> I’m Niloy <br />
@@ -55,12 +58,14 @@ const Banner = () => {
                 My projects
               </button>
             </ScrollLink>
-            <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 bg-[#1e2735] text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
-              Download Resume
-              <span>
-                <FiDownload className="text-sm"></FiDownload>
-              </span>
-            </button>
+            <a href="/Resume.pdf" download="Niloy_Resume.pdf">
+              <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 bg-[#1e2735] text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
+                Download Resume
+                <span>
+                  <FiDownload className="text-sm"></FiDownload>
+                </span>
+              </button>
+            </a>
           </div>
           <div className="flex text-2xl gap-3 mt-3.5 text-[#1E2735]">
             <a href="https://github.com/khh-Niloy" target="_blank">

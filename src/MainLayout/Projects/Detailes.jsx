@@ -17,7 +17,7 @@ const Detailes = () => {
   const image = "../" + detailes?.image;
 
   return (
-    <div className="w-[85%] mx-auto">
+    <div className="w-[85%] mx-auto mt-[4rem]">
       <div className="pt-10 pb-20">
         <div className="food-details-container flex flex-col-reverse lg:w-full w-[90%] mx-auto">
           <div className="">
