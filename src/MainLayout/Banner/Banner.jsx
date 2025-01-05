@@ -50,9 +50,11 @@ const Banner = () => {
           </h1>
 
           <div className="flex gap-2 -translate-y-3">
-            <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
-              My projects
-            </button>
+            <ScrollLink to="projects" smooth={true} duration={500}>
+              <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
+                My projects
+              </button>
+            </ScrollLink>
             <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 bg-[#1e2735] text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
               Download Resume
               <span>
@@ -61,10 +63,18 @@ const Banner = () => {
             </button>
           </div>
           <div className="flex text-2xl gap-3 mt-3.5 text-[#1E2735]">
-            <FaGithub className="cursor-pointer hover:scale-[1.15] duration-300" />
-            <FaLinkedin className="cursor-pointer hover:scale-[1.15] duration-300"></FaLinkedin>
-            <FaFacebook className="cursor-pointer hover:scale-[1.15] duration-300"></FaFacebook>
-            <FaTelegram className="cursor-pointer hover:scale-[1.15] duration-300"></FaTelegram>
+            <a href="https://github.com/khh-Niloy" target="_blank">
+              <FaGithub className="cursor-pointer hover:scale-[1.15] duration-300" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/khh-niloy-b7b8a91b5/"
+              target="_blank"
+            >
+              <FaLinkedin className="cursor-pointer hover:scale-[1.15] duration-300"></FaLinkedin>
+            </a>
+            <a href="https://www.facebook.com/khhniloy.niloy/" target="_blank">
+              <FaFacebook className="cursor-pointer hover:scale-[1.15] duration-300"></FaFacebook>
+            </a>
           </div>
         </div>
 
@@ -101,7 +111,7 @@ const Banner = () => {
         <h1 className="text-sm text-black font-normal">Scroll Down</h1>
       </div>
       <ScrollLink to="nav" smooth={true} duration={500}>
-        <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 top-[29.5rem] right-16 flex items-center justify-center rounded-full">
+        <div className="z-50 fixed w-10 h-10 hover:bg-[#212121] border border-[#212121] duration-300 xl:top-[29.5rem] right-16 lg:top-[32.5rem] md:top-[30.5rem] flex items-center justify-center rounded-full">
           <IoIosArrowRoundUp className="text-3xl text-black hover:text-white duration-300"></IoIosArrowRoundUp>
         </div>
       </ScrollLink>
