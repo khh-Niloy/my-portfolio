@@ -34,44 +34,44 @@ const Navbar = () => {
   const links = (
     <>
       <ScrollLink to="about" smooth={true} duration={500}>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer relative group">
           <a
             className={`duration-300 ${
               isAboutVisible ? "text-white" : "text-black"
-            }`}
+            } relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-current after:left-0 after:bottom-[-4px] after:rounded-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300 group-hover:after:scale-x-100`}
           >
             About
           </a>
         </li>
       </ScrollLink>
       <ScrollLink to="skills" smooth={true} duration={500}>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer relative group">
           <a
             className={`duration-300 ${
               isAboutVisible ? "text-white" : "text-black"
-            }`}
+            } relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-current after:left-0 after:bottom-[-4px] after:rounded-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300 group-hover:after:scale-x-100`}
           >
             Skills
           </a>
         </li>
       </ScrollLink>
       <ScrollLink to="projects" smooth={true} duration={500}>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer relative group">
           <a
             className={`duration-300 ${
               isAboutVisible ? "text-white" : "text-black"
-            }`}
+            } relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-current after:left-0 after:bottom-[-4px] after:rounded-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300 group-hover:after:scale-x-100`}
           >
             Projects
           </a>
         </li>
       </ScrollLink>
       <ScrollLink to="Contact" smooth={true} duration={500}>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer relative group">
           <a
             className={`duration-300 ${
               isAboutVisible ? "text-white" : "text-black"
-            }`}
+            } relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-current after:left-0 after:bottom-[-4px] after:rounded-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300 group-hover:after:scale-x-100`}
           >
             Contact
           </a>

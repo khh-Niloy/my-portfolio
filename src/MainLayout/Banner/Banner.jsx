@@ -10,6 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { IoIosArrowRoundUp } from "react-icons/io";
 import { Link as ScrollLink } from "react-scroll";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   const tiltRef = useRef(null);
@@ -40,8 +41,26 @@ const Banner = () => {
       >
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-5xl text-[#1e293b] font-bold mb-2">
-            Greetings, <br /> I’m Niloy <br />
-            <span className="whitespace-nowrap text-5xl text-[#1e293b]">Web Developer</span>
+            Greetings, <br /> I'm Niloy <br />
+            <span className="whitespace-nowrap text-4xl text-[#1e293b]">
+              <TypeAnimation
+                sequence={[
+                  "Web Developer",
+                  1500,
+                  "MERN Developer",
+                  1500,
+                  "Frontend Developer",
+                  1500,
+                ]}
+                wrapper="span"
+                speed={40}
+                style={{ display: "inline-block" }}
+                repeat={Infinity}
+                cursor={true}
+                deletionSpeed={65}
+                className="transition-all duration-200"
+              />
+            </span>
           </h1>
           <div className="flex items-center justify-start gap-1">
             <FaCode className="text-lg bg-[#1a222e] p-1 rounded-full text-white"></FaCode>
@@ -57,14 +76,18 @@ const Banner = () => {
               href="https://docs.google.com/document/d/1kjlcC3CVjy6LkDzA_BB3eZeE0zQ8nL14gpRiUXybCCs/edit?tab=t.0"
               target="_blank"
             >
-              <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-300 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
-                View Resume
+              <button className="hover:shadow-xl hover:scale-[1.02] duration-300 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full relative overflow-hidden">
+                <div className="absolute -inset-[1px] bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full animate-border-flow -z-10"></div>
+                <div className="absolute inset-[1px] bg-[#1e2735] rounded-full"></div>
+                <span className="relative">View Resume</span>
               </button>
             </a>
             <a href="/Resume.pdf" download="Niloy_Resume.pdf">
-              <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 bg-[#1e2735] text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
-                Download Resume
-                <span>
+              <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full relative overflow-hidden">
+                <div className="absolute -inset-[1px] bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full animate-border-flow -z-10"></div>
+                <div className="absolute inset-[1px] bg-[#1e2735] rounded-full"></div>
+                <span className="relative flex gap-2 items-center">
+                  Download Resume
                   <FiDownload className="text-sm"></FiDownload>
                 </span>
               </button>
@@ -109,7 +132,7 @@ const Banner = () => {
           <img src="/right.svg" alt="" />
         </div>
       </div>
-      <div className="flex items-center mt-8 gap-1 w-[80%] mx-auto justify-center">
+      <div className="flex items-center mt-8 pb-10 gap-1 w-[80%] mx-auto justify-center">
         <Lottie
           className="w-7 h-7"
           animationData={scroll}
