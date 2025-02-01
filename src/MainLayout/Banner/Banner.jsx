@@ -39,9 +39,9 @@ const Banner = () => {
         className="mt-[4.5rem] xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto"
       >
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
-          <h1 className="text-5xl font-bold mb-2">
+          <h1 className="text-5xl text-[#1e293b] font-bold mb-2">
             Greetings, <br /> I’m Niloy <br />
-            <span className="whitespace-nowrap text-5xl">Web Developer</span>
+            <span className="whitespace-nowrap text-5xl text-[#1e293b]">Web Developer</span>
           </h1>
           <div className="flex items-center justify-start gap-1">
             <FaCode className="text-lg bg-[#1a222e] p-1 rounded-full text-white"></FaCode>
@@ -57,7 +57,7 @@ const Banner = () => {
               href="https://docs.google.com/document/d/1kjlcC3CVjy6LkDzA_BB3eZeE0zQ8nL14gpRiUXybCCs/edit?tab=t.0"
               target="_blank"
             >
-              <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
+              <button className="hover:shadow-xl bg-[#1e2735] hover:scale-[1.02] duration-300 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full">
                 View Resume
               </button>
             </a>

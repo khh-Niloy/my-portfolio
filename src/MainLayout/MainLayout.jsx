@@ -23,10 +23,10 @@ const MainLayout = () => {
     <>
       <Banner></Banner>
       <About></About>
-      <Skill></Skill>
-      <Education></Education>
-      <Projects></Projects>
-      <Contact></Contact>
+      {/* <Skill></Skill> */}
+      {/* <Education></Education> */}
+      {/* <Projects></Projects> */}
+      {/* <Contact></Contact> */}
     </>
   );
 };

@@ -17,11 +17,11 @@ const AnimatedBackground = ({ children }) => {
     window.addEventListener("resize", resizeCanvas);
 
     const points = [
-      { x: 0, y: 0, dx: 0.8, dy: 0.8 },
-      { x: canvas.width, y: 0, dx: -0.8, dy: 0.8 },
-      { x: canvas.width / 2, y: canvas.height / 2, dx: 0.8, dy: -0.8 },
-      { x: canvas.width, y: canvas.height, dx: -0.8, dy: -0.8 },
-      { x: 0, y: canvas.height, dx: 0.8, dy: -0.8 },
+      { x: 0, y: 0, dx: 2.0, dy: 2.0 },
+      { x: canvas.width, y: 0, dx: -2.0, dy: 2.0 },
+      { x: canvas.width / 2, y: canvas.height / 2, dx: 2.0, dy: -2.0 },
+      { x: canvas.width, y: canvas.height, dx: -2.0, dy: -2.0 },
+      { x: 0, y: canvas.height, dx: 2.0, dy: -2.0 },
     ];
 
     const colors = [

@@ -1,28 +1,80 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
+  const [isAboutVisible, setIsAboutVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsAboutVisible(true);
+          } else {
+            setIsAboutVisible(false);
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      observer.observe(aboutSection);
+    }
+
+    return () => {
+      if (aboutSection) {
+        observer.unobserve(aboutSection);
+      }
+    };
+  }, []);
+
   const links = (
     <>
       <ScrollLink to="about" smooth={true} duration={500}>
         <li className="cursor-pointer">
-          <a>About</a>
+          <a
+            className={`duration-300 ${
+              isAboutVisible ? "text-white" : "text-black"
+            }`}
+          >
+            About
+          </a>
         </li>
       </ScrollLink>
       <ScrollLink to="skills" smooth={true} duration={500}>
         <li className="cursor-pointer">
-          <a>Skills</a>
+          <a
+            className={`duration-300 ${
+              isAboutVisible ? "text-white" : "text-black"
+            }`}
+          >
+            Skills
+          </a>
         </li>
       </ScrollLink>
       <ScrollLink to="projects" smooth={true} duration={500}>
         <li className="cursor-pointer">
-          <a>Projects</a>
+          <a
+            className={`duration-300 ${
+              isAboutVisible ? "text-white" : "text-black"
+            }`}
+          >
+            Projects
+          </a>
         </li>
       </ScrollLink>
       <ScrollLink to="Contact" smooth={true} duration={500}>
         <li className="cursor-pointer">
-          <a>Contact</a>
+          <a
+            className={`duration-300 ${
+              isAboutVisible ? "text-white" : "text-black"
+            }`}
+          >
+            Contact
+          </a>
         </li>
       </ScrollLink>
     </>
