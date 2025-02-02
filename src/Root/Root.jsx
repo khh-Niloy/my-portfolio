@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Outlet } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
+import { Outlet } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 const AnimatedBackground = ({ children }) => {
   const canvasRef = useRef(null);
@@ -75,14 +75,14 @@ const AnimatedBackground = ({ children }) => {
 };
 
 const Root = () => {
-    return (
-        <div className='font'>
-            <AnimatedBackground>
-                <Navbar></Navbar>
-                <Outlet></Outlet>
-            </AnimatedBackground>
-        </div>
-    );
+  return (
+    <div className="font">
+      <AnimatedBackground>
+        <Navbar></Navbar>
+        <Outlet></Outlet>
+      </AnimatedBackground>
+    </div>
+  );
 };
 
 export default Root;
