@@ -41,8 +41,9 @@ const Banner = () => {
       >
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-4xl text-[#1e293b] font-bold mb-2">
-            Greetings, <br /> <span className="text-[2.8rem]">I'm Niloy</span> <br />
-            <span className="whitespace-nowrap text-[2.8rem] text-[#1e293b]">
+            Greetings, <br />{" "}
+            <span className="text-4xl sm:text-[2.8rem]">I'm Niloy</span> <br />
+            <span className="whitespace-nowrap text-4xl sm:text-[2.8rem] text-[#1e293b]">
               <TypeAnimation
                 sequence={[
                   "Web Developer",
