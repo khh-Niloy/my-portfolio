@@ -4,23 +4,12 @@ import { FaUserGraduate, FaCode, FaLaptopCode } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
 
 const About = () => {
-  const colors = {
-    brown: "rgba(139, 69, 19, 0.2)",
-    green: "rgba(34, 139, 34, 0.1)",
-    tan: "rgba(210, 180, 140, 0.2)",
-    olive: "rgba(85, 107, 47, 0.2)",
-    saddle: "rgba(160, 82, 45, 0.2)",
-  };
-
   return (
-    <div
-      id="about"
-      className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#1a1a1a] via-[#1f1f1f] to-[#1a1a1a]"
-    >
+    <div id="about" className="min-h-screen relative overflow-hidden">
       {/* Modern Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(139,69,19,0.1)] via-transparent to-[rgba(85,107,47,0.1)]"></div>
+        <div className="absolute inset-0"></div>
 
         {/* Animated Background Shapes */}
         <motion.div
@@ -32,10 +21,6 @@ const About = () => {
             repeatType: "reverse",
           }}
           className="absolute -top-20 right-0 w-[800px] h-[800px] rounded-full"
-          style={{
-            background:
-              "radial-gradient(circle, rgba(210,180,140,0.08) 0%, rgba(139,69,19,0.05) 50%, transparent 70%)",
-          }}
         ></motion.div>
 
         <motion.div
@@ -79,7 +64,7 @@ const About = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="absolute -top-2 left-0 h-[1px] bg-gradient-to-r from-transparent via-[rgba(210,180,140,0.3)] to-transparent"
             ></motion.span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1E293B] tracking-tight">
               About Me
             </h2>
             <motion.span
@@ -93,7 +78,7 @@ const About = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="mt-4 sm:mt-8 text-sm sm:text-md text-gray-200 font-light max-w-2xl mx-auto px-4"
+            className="mt-4 sm:mt-8 text-sm sm:text-md text-[#1E293B]  font-light max-w-2xl mx-auto px-4"
           >
             Crafting digital experiences with a blend of design aesthetics and
             technical expertise
@@ -115,17 +100,17 @@ const About = () => {
               transition={{ duration: 0.3 }}
               className="relative group"
             >
-              <div className="absolute -inset-[1px] bg-gradient-to-r from-[rgba(210,180,140,1)] via-[rgba(139,69,19,1)] to-[rgba(210,180,140,1)] rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
-              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(26,26,26,0.95)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
+              <div className="absolute -inset-[1px] brounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
+              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(210,140,140,0.04)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
                 <div className="flex items-start gap-4 sm:gap-6">
-                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-br from-[rgba(139,69,19,0.2)] to-[rgba(85,107,47,0.2)] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
-                    <MdDesignServices className="text-base sm:text-lg text-[rgba(210,180,140,1)]" />
+                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-[#1e293bec] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+                    <MdDesignServices className="text-base sm:text-lg text-[white]" />
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-white group-hover:text-[rgba(210,180,140,1)] transition-colors duration-300">
+                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-[#1E293B] transition-colors duration-300">
                       Design Journey
                     </h3>
-                    <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                       Started my creative journey in 2019, diving into design
                       fundamentals. From 2020 to 2021, I refined my skills
                       through professional projects, developing a keen eye for
@@ -142,17 +127,17 @@ const About = () => {
               transition={{ duration: 0.3 }}
               className="relative group"
             >
-              <div className="absolute -inset-[1px] bg-gradient-to-r from-[rgba(210,180,140,1)] via-[rgba(139,69,19,1)] to-[rgba(210,180,140,1)] rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
-              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(26,26,26,0.95)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
+              <div className="absolute -inset-[1px] brounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
+              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(210,140,140,0.04)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
                 <div className="flex items-start gap-4 sm:gap-6">
-                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-br from-[rgba(85,107,47,0.2)] to-[rgba(139,69,19,0.2)] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
-                    <FaCode className="text-base sm:text-lg text-[rgba(210,180,140,1)]" />
+                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-[#1e293bec] via-[rgba(160,82,45,0.8)] to-[rgba(139,69,19,0.8)] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+                    <FaCode className="text-base sm:text-lg text-[white]" />
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-white group-hover:text-[rgba(210,180,140,1)] transition-colors duration-300">
+                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-[#1E293B] transition-colors duration-300">
                       Programming Evolution
                     </h3>
-                    <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                       In 2022, I began with HTML and CSS. By 2023, I was solving
                       problems with C/C++ at Daffodil International University,
                       building a strong foundation in programming concepts.
@@ -168,17 +153,17 @@ const About = () => {
               transition={{ duration: 0.3 }}
               className="relative group"
             >
-              <div className="absolute -inset-[1px] bg-gradient-to-r from-[rgba(210,180,140,1)] via-[rgba(139,69,19,1)] to-[rgba(210,180,140,1)] rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
-              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(26,26,26,0.95)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
+              <div className="absolute -inset-[1px] brounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 group-hover:animate-border-flow -z-10"></div>
+              <div className="relative p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(210,140,140,0.04)] shadow-lg hover:shadow-2xl transition-all duration-300 z-10">
                 <div className="flex items-start gap-4 sm:gap-6">
-                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-br from-[rgba(210,180,140,0.2)] to-[rgba(85,107,47,0.2)] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
-                    <FaLaptopCode className="text-base sm:text-lg text-[rgba(210,180,140,1)]" />
+                  <div className="p-2 sm:p-3 rounded-lg sm:rounded-xl bg-[#1e293bec] transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+                    <FaLaptopCode className="text-base sm:text-lg text-[white]" />
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-white group-hover:text-[rgba(210,180,140,1)] transition-colors duration-300">
+                    <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-[#1E293B] transition-colors duration-300">
                       Learning Journey
                     </h3>
-                    <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                       2024 marks my journey into full-stack development with the
                       MERN stack at Programming Hero, where I'm building modern
                       web applications and expanding my technical expertise.
@@ -201,28 +186,28 @@ const About = () => {
                 transition={{ duration: 0.3 }}
                 className="relative group"
               >
-                <div className="absolute inset-0 bg-gradient-to-b from-[rgba(139,69,19,0.1)] to-[rgba(85,107,47,0.1)] rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-[rgba(210,180,140,0.1)] bg-[rgba(26,26,26,0.95)] backdrop-blur-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 flex items-center gap-3 text-white">
-                    <FaUserGraduate className="text-[rgba(210,180,140,1)]" />
+                <div className="absolute inset-0 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(210,140,140,0.04)] backdrop-blur-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 flex items-center gap-3 text-[#1E293B]">
+                    <FaUserGraduate className="text-[#2F3748]" />
                     Education & Expertise
                   </h3>
 
                   <div className="space-y-4 sm:space-y-6">
                     <div>
-                      <h4 className="text-base sm:text-lg font-semibold text-white">
+                      <h4 className="text-base sm:text-lg font-semibold text-gray-800">
                         University Education
                       </h4>
-                      <p className="text-sm sm:text-base text-gray-300 mt-2">
+                      <p className="text-sm sm:text-base text-gray-600 mt-2">
                         Daffodil International University
                       </p>
-                      <p className="text-xs sm:text-sm text-gray-400">
-                        Computer Science & Engineering
+                      <p className="text-xs sm:text-sm text-gray-500">
+                        Software Engineering
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-base sm:text-lg font-semibold text-white">
+                      <h4 className="text-base sm:text-lg font-semibold text-gray-800">
                         Technical Skills
                       </h4>
                       <div className="mt-3 sm:mt-4 flex flex-wrap gap-2">
@@ -240,7 +225,7 @@ const About = () => {
                         ].map((skill) => (
                           <span
                             key={skill}
-                            className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm border border-[rgba(210,180,140,0.2)] bg-gradient-to-r from-[rgba(139,69,19,0.1)] to-[rgba(85,107,47,0.1)] text-white hover:text-[rgba(210,180,140,1)] hover:border-[rgba(210,180,140,0.4)] hover:bg-[rgba(26,26,26,0.9)] transition-all duration-300"
+                            className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm border border-[#1E293B]/10 text-[#1E293B] hover:text-[rgba(139,69,19,1)] hover:border-[rgba(139,69,19,0.4)] hover:bg-[rgba(210,180,140,0.1)] transition-all duration-300"
                           >
                             {skill}
                           </span>
@@ -249,10 +234,10 @@ const About = () => {
                     </div>
 
                     <div>
-                      <h4 className="text-base sm:text-lg font-semibold text-white">
+                      <h4 className="text-base sm:text-lg font-semibold text-gray-800">
                         Current Focus
                       </h4>
-                      <p className="text-xs sm:text-sm text-gray-300 mt-2">
+                      <p className="text-xs sm:text-sm text-gray-600 mt-2">
                         Mastering the MERN stack while building real-world
                         projects with a focus on scalable solutions
                       </p>

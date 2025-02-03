@@ -40,16 +40,16 @@ const Banner = () => {
         className="mt-[4.5rem] xl:w-[85%] lg:w-[90%] md:w-[90%] relative z-0 flex flex-col-reverse md:flex-row items-center justify-center mx-auto"
       >
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
-          <h1 className="text-5xl text-[#1e293b] font-bold mb-2">
-            Greetings, <br /> I'm Niloy <br />
-            <span className="whitespace-nowrap text-4xl text-[#1e293b]">
+          <h1 className="text-4xl text-[#1e293b] font-bold mb-2">
+            Greetings, <br /> <span className="text-[2.8rem]">I'm Niloy</span> <br />
+            <span className="whitespace-nowrap text-[2.8rem] text-[#1e293b]">
               <TypeAnimation
                 sequence={[
                   "Web Developer",
                   1500,
                   "MERN Developer",
                   1500,
-                  "Frontend Developer",
+                  "REACT Developer",
                   1500,
                 ]}
                 wrapper="span"
