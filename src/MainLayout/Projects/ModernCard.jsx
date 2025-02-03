@@ -17,7 +17,7 @@ const ModernCard = () => {
 
   return (
     <div id="projects" className="flex justify-center p-8">
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 md:w-[80%]">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 md:w-[90%]">
         {card.map((e) => (
           <div
             className="group relative card bg-black/90 shadow-2xl 

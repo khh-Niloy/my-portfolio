@@ -19,7 +19,7 @@ const Navbar = () => {
           </a>
         </li>
       </ScrollLink>
-      <ScrollLink to="projects" smooth={true} duration={500}>
+      <ScrollLink to="project" smooth={true} duration={500}>
         <li className="cursor-pointer relative group">
           <a className="duration-300 text-black relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-current after:left-0 after:bottom-[-4px] after:rounded-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300 group-hover:after:scale-x-100">
             Projects

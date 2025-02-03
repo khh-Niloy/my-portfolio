@@ -25,7 +25,7 @@ const MainLayout = () => {
       <About></About>
       <Skill></Skill>
       <Education></Education>
-      {/* <Projects></Projects> */}
+      <Projects></Projects>
       <Contact></Contact>
     </>
   );

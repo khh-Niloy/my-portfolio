@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-20">
+    <div className="pb-20 pt-10">
       <div className="flex justify-center w-full mb-24">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
