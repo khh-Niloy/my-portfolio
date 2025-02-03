@@ -29,7 +29,7 @@ const StaticBackground = ({ children }) => {
     const colors = [
       "rgba(139, 69, 19, 0.2)",
       "rgba(34, 139, 34, 0.2)",
-      "rgba(210, 180, 140, 0.3)",
+      "rgba(210, 180, 140, 0.1)",
       "rgba(85, 107, 47, 0.2)",
       "rgba(160, 82, 45, 0.1)",
     ];

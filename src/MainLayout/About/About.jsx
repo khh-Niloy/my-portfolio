@@ -62,16 +62,16 @@ const About = () => {
               initial={{ width: "0%" }}
               whileInView={{ width: "100%" }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="absolute -top-2 left-0 h-[1px] bg-gradient-to-r from-transparent via-[rgba(210,180,140,0.3)] to-transparent"
+              className="absolute -top-2 left-0 h-[2px] bg-gradient-to-r from-transparent via-[#8b451352] to-transparent"
             ></motion.span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1E293B] tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1E293B] tracking-tight">
               About Me
             </h2>
             <motion.span
               initial={{ width: "0%" }}
               whileInView={{ width: "100%" }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="absolute -bottom-2 left-0 h-[1px] bg-gradient-to-r from-transparent via-[rgba(210,180,140,0.3)] to-transparent"
+              className="absolute -bottom-2 left-0 h-[2px] bg-gradient-to-r from-transparent via-[#8b451352] to-transparent"
             ></motion.span>
           </div>
           <motion.p
@@ -188,7 +188,7 @@ const About = () => {
               >
                 <div className="absolute inset-0 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-transparent bg-[rgba(210,140,140,0.04)] backdrop-blur-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 flex items-center gap-3 text-[#1E293B]">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center gap-3 text-[#1E293B]">
                     <FaUserGraduate className="text-[#2F3748]" />
                     Education & Expertise
                   </h3>

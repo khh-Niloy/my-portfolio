@@ -4,5 +4,8 @@
   },
   {
     "name": "Firebase"
+  },
+  {
+    "name": "Vite"
   }
 ]

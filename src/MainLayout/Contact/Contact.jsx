@@ -4,6 +4,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -34,20 +35,57 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <h1 id="Contact" className="text-4xl text-center mb-10 font-semibold">
-        Contact With Me
-      </h1>
-      <div className="w-[80%] mx-auto px-4 pb-16 pt-10 flex lg:flex-row flex-col gap-8">
+    <div className="py-20">
+      <div className="flex justify-center w-full mb-24">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="relative inline-block"
+        >
+          <motion.span
+            initial={{ width: "0%" }}
+            whileInView={{ width: "100%" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="absolute -top-2 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#8b451352] to-transparent"
+          ></motion.span>
+
+          <h2
+            id="Contact"
+            className="text-3xl md:text-4xl font-bold text-[#1E293B] tracking-tight px-4"
+          >
+            Contact With Me
+          </h2>
+
+          <motion.span
+            initial={{ width: "0%" }}
+            whileInView={{ width: "100%" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="absolute -bottom-2 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#8b451352] to-transparent"
+          ></motion.span>
+        </motion.div>
+      </div>
+
+      <div className="w-[80%] mx-auto px-4 pb-16 flex lg:flex-row flex-col gap-8">
         {/* Talk to Me Section */}
-        <div className="lg:w-[40%]">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="lg:w-[40%]"
+        >
           <h2 className="text-2xl lg:text-left text-center font-medium mb-8 text-gray-800">
             Talk to me
           </h2>
 
           <div className="space-y-4">
             {/* Email Card */}
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/20 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+              className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/10 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer"
+            >
               <div className="flex flex-col items-center">
                 <Mail className="h-6 w-6 mb-2 text-gray-700 transition-colors group-hover:text-gray-900" />
                 <h3 className="text-sm font-medium text-gray-800">Email</h3>
@@ -59,23 +97,33 @@ const Contact = () => {
                   <span className="transform transition-transform">→</span>
                 </button>
               </div>
-            </div>
+            </motion.div>
 
             {/* WhatsApp Card */}
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/20 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/10 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer"
+            >
               <div className="flex flex-col items-center">
-                <FaWhatsapp className="h-6 w-6 mb-2 text-gray-700 transition-colors group-hover:text-gray-900"></FaWhatsapp>
-                <h3 className="text-sm font-medium text-gray-800">Whatsapp</h3>
+                <FaWhatsapp className="h-6 w-6 mb-2 text-gray-700 transition-colors group-hover:text-gray-900" />
+                <h3 className="text-sm font-medium text-gray-800">WhatsApp</h3>
                 <p className="text-sm text-gray-600 mb-3">01915910291</p>
                 <button className="text-sm text-gray-600 hover:text-gray-900 flex items-center gap-1 transition-all hover:gap-2">
                   Write me{" "}
                   <span className="transform transition-transform">→</span>
                 </button>
               </div>
-            </div>
+            </motion.div>
 
             {/* Messenger Card */}
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/20 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
+              className="bg-white/20 backdrop-blur-sm rounded-lg p-6 border-[1.3px] border-[brown]/10 transition-all duration-300 hover:bg-white/70 hover:shadow-lg hover:scale-[1.02] cursor-pointer"
+            >
               <div className="flex flex-col items-center">
                 <MessageSquare className="h-6 w-6 mb-2 text-gray-700" />
                 <h3 className="text-sm font-medium text-gray-800">Messenger</h3>
@@ -85,17 +133,26 @@ const Contact = () => {
                   <span className="transform transition-transform">→</span>
                 </button>
               </div>
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Write Me Your Project Section */}
-        <div className="lg:w-[60%]">
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="lg:w-[60%]"
+        >
           <h2 className="text-2xl lg:mt-0 mt-20 lg:text-left text-center font-medium mb-8 text-gray-800">
             Write me your project
           </h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-6">
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+            >
               <p className="text-sm text-gray-600 mb-2">Name</p>
               <input
                 type="text"
@@ -107,9 +164,13 @@ const Contact = () => {
                   setFormData({ ...formData, name: e.target.value })
                 }
               />
-            </div>
+            </motion.div>
 
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+            >
               <p className="text-sm text-gray-600 mb-2">Mail</p>
               <input
                 type="email"
@@ -121,9 +182,13 @@ const Contact = () => {
                   setFormData({ ...formData, email: e.target.value })
                 }
               />
-            </div>
+            </motion.div>
 
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
+            >
               <p className="text-sm text-gray-600 mb-2">Project</p>
               <textarea
                 placeholder="Write your project"
@@ -135,18 +200,21 @@ const Contact = () => {
                   setFormData({ ...formData, project: e.target.value })
                 }
               />
-            </div>
+            </motion.div>
 
-            <button
+            <motion.button
               type="submit"
-              className="bg-gray-800 w-full text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-700 hover:scale-[1.02] hover:shadow-lg transition-all duration-300"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.4 }}
+              className="bg-[#1F2937] w-full text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-700 hover:scale-[1.02] hover:shadow-lg transition-all duration-300"
             >
               Send Message <Send className="h-4 w-4" />
-            </button>
+            </motion.button>
           </form>
-        </div>
+        </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 
