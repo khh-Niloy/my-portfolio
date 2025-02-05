@@ -42,8 +42,8 @@ const Banner = () => {
         <div className="xl:w-[30%] lg:w-[40%] md:w-[50%] w-[85%] mt-10">
           <h1 className="text-4xl text-[#1e293b] font-bold mb-2">
             Greetings, <br />{" "}
-            <span className="text-4xl sm:text-[2.8rem]">I'm Niloy</span> <br />
-            <span className="whitespace-nowrap text-4xl sm:text-[2.8rem] text-[#1e293b]">
+            <span className="text-4xl sm:text-[2.5rem]">I'm Niloy</span> <br />
+            <span className="whitespace-nowrap text-4xl sm:text-[2.5rem] text-[#1e293b]">
               <TypeAnimation
                 sequence={[
                   "Web Developer",
@@ -74,14 +74,14 @@ const Banner = () => {
 
           <div className="flex gap-2 -translate-y-3">
             <a
-              href="https://docs.google.com/document/d/1kjlcC3CVjy6LkDzA_BB3eZeE0zQ8nL14gpRiUXybCCs/edit?tab=t.0"
+              href="https://drive.google.com/file/d/1XtxWv11URfCuUoWjmx_UOv-nwOTmypEa/view"
               target="_blank"
             >
-              {/* <button className="hover:shadow-xl hover:scale-[1.02] duration-300 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full relative overflow-hidden">
+              <button className="hover:shadow-xl hover:scale-[1.02] duration-300 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full relative overflow-hidden">
                 <div className="absolute -inset-[1px] bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full animate-border-flow -z-10"></div>
                 <div className="absolute inset-[1px] bg-[#1e2735] rounded-full"></div>
                 <span className="relative">View Resume</span>
-              </button> */}
+              </button>
             </a>
             <a href="/Resume.pdf" download="Niloy_Resume.pdf">
               <button className="flex gap-2 items-center hover:shadow-xl hover:scale-[1.02] duration-500 text-white font-light px-5 py-2.5 mt-5 text-xs rounded-full relative overflow-hidden">

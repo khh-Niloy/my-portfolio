@@ -17,15 +17,15 @@ const ModernCard = () => {
 
   return (
     <div id="projects" className="flex justify-center p-8">
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 md:w-[90%]">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 w-full max-w-[1200px]">
         {card.map((e) => (
           <div
-            className="group relative card bg-black/90 shadow-2xl 
+            className="group relative flex flex-col h-full bg-black/90 shadow-2xl 
                   transition-all duration-700 ease-out hover:-translate-y-2
                   rounded-2xl overflow-hidden"
           >
             <div
-              className=" absolute inset-0 bg-gradient-to-br from-zinc-700 via-gray-800/30 to-neutral-900/80
+              className="absolute inset-0 bg-gradient-to-br from-zinc-700 via-gray-800/30 to-neutral-900/80
                         opacity-0 transition-all duration-700 group-hover:opacity-100"
             />
             <div
@@ -36,11 +36,11 @@ const ModernCard = () => {
             <figure className="relative">
               <img
                 src={e.image}
-                className="rounded-b-2xl transition-transform duration-500 group-hover:scale-105"
+                className="w-full rounded-b-2xl transition-transform duration-500 group-hover:scale-105"
                 alt="Shoes"
               />
             </figure>
-            <div className="p-5 relative z-10">
+            <div className="p-5 relative z-10 flex flex-col flex-grow">
               <h2
                 className="card-title text-2xl font-bold text-white 
                      transition-colors duration-500 group-hover:text-transparent
@@ -59,17 +59,17 @@ const ModernCard = () => {
                   </li>
                 ))}
               </p>
-              <div className="card-actions justify-end ">
-                <Link className="w-full" to={`/detailes/${e.id}`}>
+              <div className="mt-auto pt-6 w-full">
+                <Link className="block w-full" to={`/detailes/${e.id}`}>
                   <button
-                    className="btn btn-primary mt-6 w-full rounded-lg bg-zinc-800 py-3 
+                    className="btn w-full rounded-lg bg-zinc-800 py-3 
                            text-white border border-zinc-700 transition-all duration-500 
                            hover:bg-zinc-900 hover:border-zinc-600 
                            group-hover:shadow-lg group-hover:shadow-black/20 active:scale-95"
                   >
-                    <div className="flex flex-row-reverse items-center gap-2">
-                      <GoArrowUpRight className="text-[1.5rem] p-1 bg-white text-black rounded-full"></GoArrowUpRight>
+                    <div className="flex items-center justify-center gap-2">
                       Project Detailes
+                      <GoArrowUpRight className="text-[1.5rem] p-1 bg-white text-black rounded-full" />
                     </div>
                   </button>
                 </Link>

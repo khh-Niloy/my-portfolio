@@ -35,13 +35,13 @@ const Detailes = () => {
                 target="_blank"
                 className="text-black hover:underline hover:text-black/60 duration-300"
               >
-                <p className="">Live Link</p>
+                <p className="text-blue-500">Live Link</p>
               </a>
-              <p className="-translate-x-2">-</p>
+              <p className="-translate-x-2 ">-</p>
               <a
                 href={detailes?.github}
                 target="_blank"
-                className="text-black hover:underline hover:text-black/60 duration-300"
+                className=" hover:underline hover:text-black/60 duration-300 text-blue-500"
               >
                 <p className="-translate-x-4">GitHub Link</p>
               </a>

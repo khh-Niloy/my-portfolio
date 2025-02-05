@@ -133,7 +133,7 @@ const Skill = () => {
         </motion.div>
 
         {/* Skills Grid */}
-        <div className="w-[85%] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="w-[85%] mx-auto grid md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-2 gap-8">
           {/* Frontend Skills Card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
