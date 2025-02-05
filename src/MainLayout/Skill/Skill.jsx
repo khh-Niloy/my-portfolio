@@ -7,7 +7,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+
 import { SiAdobexd } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -258,7 +259,7 @@ const Skill = () => {
                   >
                     <div className="p-3 rounded-lg transition-colors duration-300">
                       {e.name === "Adobe illustrator" && (
-                        <SiAdobephotoshop className="text-3xl text-[#1E293B]" />
+                        <SiAdobeillustrator className="text-3xl text-[#1E293B]" />
                       )}
                       {e.name === "Adobe XD" && (
                         <SiAdobexd className="text-3xl text-[#1E293B]" />
@@ -346,12 +347,12 @@ const Skill = () => {
                       {e.name === "C" && (
                         <img className="w-8 h-8" src="C.svg" alt="C" />
                       )}
-                      {e.name === "C++" && (
+                      {/* {e.name === "C++" && (
                         <img className="w-8 h-8" src="C++.svg" alt="C++" />
                       )}
                       {e.name === "Java" && (
                         <img className="w-8 h-8" src="java.svg" alt="Java" />
-                      )}
+                      )} */}
                     </div>
                     <span className="mt-2 text-sm text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
                       {e.name}
