@@ -189,9 +189,9 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 0.3 }}
             >
-              <p className="text-sm text-gray-600 mb-2">Project</p>
+              <p className="text-sm text-gray-600 mb-2">Message</p>
               <textarea
-                placeholder="Write your project"
+                placeholder="Write your message"
                 rows={5}
                 className="resize-none h-[11.3rem] w-full p-3 rounded-lg placeholder:text-xs bg-white/80 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:bg-white/95 transition-all duration-300"
                 name="brief"
